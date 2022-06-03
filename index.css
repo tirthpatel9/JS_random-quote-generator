@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.header-title{
+    grid-row: 1 / 2;
+    transition-duration: 0.7s;
+}
+.header-title:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+  
+}
+.main-content{
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-rows: 9rem auto;
+}
+.quote-display{
+    grid-row: 1 / 2;
+}
+.newQuote-btn{
+    grid-row: 2 / 3;
+    background-color:white;
+    border-radius: 5px;
+    transition-duration: 0.7s;
+}
+.newQuote-btn:hover{
+    padding: 10px;
+    border-color:red;
+    font-size: large;
+}
