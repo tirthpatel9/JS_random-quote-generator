@@ -23,7 +23,7 @@ function DisplayQuote(data) {
     authorDisplay.innerHTML = "-Unknown Author";
   }
   quoteDisplay.appendChild(authorDisplay);
-  console.log(`${quote} ${rng}/${data.length}`);
+  
 }
 
 window.addEventListener("load", () => {
